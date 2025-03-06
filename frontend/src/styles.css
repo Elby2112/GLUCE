@@ -1,0 +1,820 @@
+/* Ensure the section takes full height */
+.hero-section {
+  display: flex;
+  height: 100vh;
+  background-color: #bfd202;
+  margin: 0;
+  padding: 0; /* Remove extra padding */
+  overflow: hidden; /* Prevents any scroll issues */
+}
+
+/* Left side */
+.hero-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center horizontally */
+  padding: 40px;
+  position: relative;
+}
+
+/* Logo in the top left */
+.hero-logo {
+  width: 120px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* Title styling */
+.hero-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #0a5247;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Subtitle */
+.hero-text {
+  font-size: 22px;
+  color: #0a5247;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Button */
+.hero-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #0a5247;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #0a5247;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 150px;
+  text-align: center;
+}
+
+/* Center the button horizontally */
+.hero-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-button:hover {
+  background-color: #0a5247;
+  color: white;
+}
+
+
+.hero-right {
+  width: 40vw; /* Ensure it takes exactly 40% of viewport width */
+  height: 100vh; /* Full height */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+}
+.hero-right img {
+  width: 100%;
+  height: 100vh; /* Full height */
+  object-fit: cover; /* Ensures the image covers the entire area */
+  display: block; /* Removes any inline spacing issues */
+}
+
+/* Description Section */
+.description-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f4ed;
+  padding: 60px 20px;
+  height: 100vh;
+}
+
+/* Left Side (Text Content) */
+.description-left {
+  width: 60%;
+  text-align: left;
+  padding: 20px;
+}
+
+.description-title {
+  font-size: 45px;
+  font-weight: bold;
+  color: #0a5247;
+}
+
+.description-subtitle {
+  font-size: 26px;
+  font-weight: 600;
+  color: #0a5247;
+  margin-top: 10px;
+}
+
+.description-text {
+  font-size: 20px;
+  color: #0a5247;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+/* Right Side (Image) */
+.description-right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-img {
+  width: 60%; /* Make the image smaller */
+  height: auto;
+  border-radius: 200px; /* Rounded top and bottom */
+  border-top-left-radius: 50;
+  border-top-right-radius: 50;
+}
+/* Footer Section */
+.footer {
+  background-color: #0a5247;
+  color: #f8f4ed;
+  display: flex;
+  height: 100vh; /* Full-height section */
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0; /* Remove extra padding */
+  overflow: hidden; /* Prevents any scroll issues */
+}
+
+
+/* Left Section (Image) */
+.footer-left {
+  width: 40%;
+  height: 100%; /* Ensures full height */
+}
+
+.footer-img {
+  width: 100%;
+  height: 100vh; /* Full height to cover the section */
+  object-fit: cover;
+}
+
+/* Adjust spacing in the right section */
+.footer-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  padding: 40px;
+  height: 100%;
+}
+
+/* Logo at the top */
+.footer-logo {
+  width: 120px;
+  align-self: flex-start;
+  margin-bottom: 10px; /* Reduce space below the logo */
+}
+
+/* Title closer to the logo */
+.footer-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0; /* Remove unnecessary margin */
+  padding: 0; /* Ensure no extra padding */
+}
+
+/* About Section */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffc643;
+  padding: 60px 10%;
+  gap: 50px;
+}
+
+/* Left Side (50%) */
+.about-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+
+/* Title */
+.about-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #0a5247;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Image */
+.about-image {
+  width: 600px;
+  height: 400px;
+  border-radius: 45%;
+  object-fit: cover;
+}
+
+/* Right Side (50%) */
+.about-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+}
+
+/* Description */
+.about-text {
+  font-size: 18px;
+  color: #0a5247;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  max-width: 400px;
+}
+
+/* Button */
+.about-button {
+  padding: 12px 24px;
+  background-color: white;
+  color: #0a5247;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #0a5247;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.about-button:hover {
+  background-color: #0a5247;
+  color: white;
+}
+
+/*Final Section */
+.final-section {
+  background-color: #f8f4ed;
+  text-align: center;
+  padding: 80px 20px; /* Increased padding */
+}
+
+.final-title {
+  color: #0a5247;
+  font-size: 2.5rem; /* Slightly larger title */
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.final-description {
+  color: #0a5247;
+  font-size: 1.3rem;
+  max-width: 700px; /* More width */
+  margin: 0 auto 50px auto; /* More space below */
+}
+
+.squares-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* More spacing between squares */
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.square {
+  background-color: #ffc643;
+  border-radius: 20px;
+  padding: 30px; /* Increased padding */
+  width: 280px; /* Slightly bigger squares */
+  text-align: center;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+}
+
+.square-icon {
+  color: white;
+  font-size: 3.5rem; /* Bigger icons */
+  margin-bottom: 15px;
+}
+
+.square-title {
+  color: #0a5247;
+  font-size: 1.7rem; /* Bigger title */
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.square-text {
+  color: #0a5247;
+  font-size: 1.1rem;
+}
+
+/* Navbar container */
+.navbar {
+  position: absolute;
+  top: 60px; /* Align with logo */
+  right: 20px; /* Push to the right */
+  display: flex;
+  gap: 30px; /* Space between items */
+}
+
+/* Navbar */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar links */
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 8px;
+}
+
+/* Hover & Active */
+.navbar a:hover,
+.navbar a.active {
+  background-color: #0a5247;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+
+
+
+/* Global Styles */
+body {
+  background-color: #bfd202;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* About Us Full-Width White Section */
+.about-us-container {
+  background-color: #fff;
+  padding: 4rem 2rem;
+  margin-top: 100px; /* Space below the navbar */
+  width: 100%;
+  box-sizing: border-box;
+  height: 700px;
+}
+
+/* Title styling */
+.about-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #0a5247;
+}
+
+/* Profile card container - spans full width */
+.profile-card-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Profile Card styling - centered content, fixed max width */
+.profile-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 800px; /* Limits content width, but container is full width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image styling */
+.profile-img {
+  flex: 0 0 200px;
+  margin-right: 2rem;
+}
+
+.profile-img img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #0a5247;
+}
+
+/* Profile Information styling */
+.profile-info {
+  flex: 1;
+}
+
+.profile-info h2 {
+  margin-top: 0;
+  color: #0a5247;
+  font-size: 2rem;
+}
+
+.profile-info p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 1rem 0;
+  color: #555;
+}
+
+/* Social Links styling */
+.social-links a {
+  margin-right: 1rem;
+  color: #0a5247;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #095a3c;
+}
+
+/* data entry styling */
+/* CSS Variables for theme colors, fonts, and spacing */
+:root {
+  --primary-color: #0a5247;
+  --secondary-color: #095a3c;
+  --accent-color: #ffeb3b;
+  --background-color: #bfd202;
+  --card-bg: #ffffff;
+  --text-color: #333;
+  --font-family: 'Roboto', sans-serif;
+  --border-radius: 8px;
+  --transition-speed: 0.3s;
+}
+
+/* Global Styles */
+body {
+  background-color: var(--background-color);
+  margin: 0;
+  font-family: var(--font-family);
+  color: var(--text-color);
+}
+
+/* Container: Data Entry */
+.data-entry-container {
+  /*background-color: var(--card-bg);*/
+  background: rgba(255, 255, 255, 1); 
+  backdrop-filter: blur(10px);  
+  margin: 150px auto 2rem;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.data-entry-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Section Styling */
+.form-section {
+  margin-bottom: 2rem;
+}
+.form-section h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+.form-group input,
+.form-group select {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+  transition: border var(--transition-speed), box-shadow var(--transition-speed);
+}
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #0a5247;
+  box-shadow: 0 0 5px rgba(10, 82, 71, 0.5);
+  outline: none;
+}
+/* Force override for MUI Outlined TextField focus border */
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #0a5247 !important;
+}
+
+/* Force override for the label color on focus */
+.MuiInputLabel-root.Mui-focused {
+  color: #0a5247 !important;
+}
+
+
+/* Checkbox Group Styling */
+.checkbox-group {
+  flex-direction: row;
+  align-items: center;
+}
+.checkbox-group input {
+  margin-right: 0.5rem;
+}
+
+.submit-button {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  background-color: #0a5247 !important; /* Default background color */
+  color: #ffffff;
+  border: none !important;
+  border-radius: 8px !important;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  align-self: center;
+  width: 60%;
+  max-width: 320px;
+  margin-top: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #0a5247 !important; /* Hover background color */
+  transform: translateY(-2px);
+}
+
+
+/* New styles for FieldWithIcon component */
+.field-group {
+  margin-bottom: 1rem;
+}
+
+.field-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.field-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.field-description {
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 4px;
+}
+
+.results-container {
+  padding: 20px;
+  background-color: #bfd202;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 130px auto; /* Increased top margin for extra spacing */
+  text-align: center;
+}
+
+.results-title {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #0a5247;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Exactly 3 columns of equal width */
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px; /* Increased padding for a larger card appearance */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #0a5247;
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 24px; 
+  height: 24px;
+  margin-right: 8px;
+}
+
+.progress-container {
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: #0a5247;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.score {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.risk-category.low {
+  color: green;
+}
+
+.risk-category.moderate {
+  color: orange;
+}
+
+.risk-category.high {
+  color: red;
+}
+
+.recommendations {
+  list-style: none;
+  padding: 0;
+}
+
+.recommendation {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.emoji {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.traffic-light-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.light {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ddd;
+  transition: background-color 0.3s;
+}
+
+.light.green.active {
+  background-color: #28a745; /* Green for Low Risk */
+}
+
+.light.yellow.active {
+  background-color: #ffc107; /* Yellow for Moderate Risk */
+}
+
+.light.red.active {
+  background-color: #dc3545; /* Red for High Risk */
+}
+/* Recommendations */
+.recommendation-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  overflow: hidden;
+}
+
+.recommendation-card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recommendation-icon {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.recommendation-category {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.recommendation-text {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+.recommendations-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the recommendations */
+  justify-content: center;
+}
+
+
+.recommendation-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.nav-button {
+  background-color: #0a5247;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.nav-button:hover {
+  background-color: #08403a;
+}
+
+
+.summary-card {
+  background: linear-gradient(135deg, #f8f9fa, #fff);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.summary-text-container {
+  background: #ffc643;
+  padding: 10px;
+  border-radius: 8px;
+  color: #0a5247;
+  font-weight: bold;
+  display: inline-block;
+}
+
+
+
+
+
+.feature-item {
+  font-size: 13px;
+  color: #0a5247;
+  margin: 2px 0;
+}
+.feature-importance-card {
+  text-align: center;
+}
+
+.feature-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
