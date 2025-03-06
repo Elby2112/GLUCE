@@ -12,7 +12,8 @@ The goal of this web app is to provide individuals with personalized metabolic h
 ## 💡 Inspiration: Why Metabolic Health?
 
 Over the past few months, I've been deeply interested in metabolic health and the profound impact of nutrition on overall performance, mood, and long-term wellbeing. Healthy nutrition and an optimized metabolism not only boost energy and mood but also play a critical role in preventing severe conditions later in life.
-You wanna learn more about metabolic health check up the following podcasts:
+
+You wanna learn more about metabolic health? check up the following podcasts:
 - https://youtu.be/3esF-pNAM9c?si=liRj7uursKMhGoFi
 - https://youtu.be/4DWKf5RqU-s?si=ngHFUUcoNVZ0ae-J
 
