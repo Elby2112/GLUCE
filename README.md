@@ -39,11 +39,11 @@ All these results are showcased in a beautifully designed user interface.
 ### Diagrams
 
 - **Stack Diagram:**  
-  ![Stack Diagram](path/to/stack_image.png)  
+  ![Stack Diagram](screenshots/stack.png)  
   *Figure 1: Frontend and Backend Stack*
 
 - **Workflow Diagram:**  
-  ![Workflow Diagram](path/to/workflow_image.png)  
+  ![Workflow Diagram](screenshots/workflow.png)  
   *Figure 2: App Workflow – User enters data, backend processing, and UI display*
 
 ## 📊 Dataset Features and Explanations
